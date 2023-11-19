@@ -1,0 +1,15 @@
+.PostInList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.PostInList .trash {
+  cursor: pointer;
+  transition: transform 1s ease;
+}
+
+.PostInList .trash:hover {
+  transform: scale(1.1);
+}
